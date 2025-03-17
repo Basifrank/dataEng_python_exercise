@@ -7,18 +7,18 @@ Then Create a function that will concatenate the first name and the last name th
 
 
 
-def firstName(FN):
-    return FN
+def firstName(myfirsName):
+    return myfirsName
 
 
-def lastName(LN):
-    return LN
+def lastName(myLastName):
+    return myLastName
 
 
-def fullName(FN, LN):
-    FN = firstName(FN)
-    LN = lastName(LN)
-    return f"My full name is {FN} {LN}"
+def fullName(myfirsName, myLastName):
+    FirstName = firstName(myfirsName)
+    LastName = lastName(myLastName)
+    return f"My full name is {FirstName} {LastName}"
  
  
 print(fullName("Chigozie", "Obasi"))
